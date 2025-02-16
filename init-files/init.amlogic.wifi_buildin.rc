@@ -1,8 +1,7 @@
-on fs
+on boot
+   insmod /vendor/lib/modules/ssv6051.ko
+   insmod /vendor/lib/modules/ssv6x5x.ko
+   insmod /vendor/lib/modules/ssv_hwif_ctrl.ko
 
 on property:wlan.driver.status=ok
-   chown system wifi /sys/module/dhd/parameters/firmware_path
-   chmod 0660 /sys/module/dhd/parameters/firmware_path
-   chown system wifi /sys/module/bcmdhd/parameters/firmware_path
-   chmod 0660 /sys/module/bcmdhd/parameters/firmware_path
    setprop wifi.direct.interface p2p-dev-wlan0
