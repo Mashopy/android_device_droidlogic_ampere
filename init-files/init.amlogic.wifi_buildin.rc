@@ -1,2 +1,8 @@
-on boot
-    insmod /vendor/lib/modules/8822bs.ko rtw_country_code=US ifname=wlan0 if2name=p2p0
+on fs
+
+on property:wlan.driver.status=ok
+   chown system wifi /sys/module/dhd/parameters/firmware_path
+   chmod 0660 /sys/module/dhd/parameters/firmware_path
+   chown system wifi /sys/module/bcmdhd/parameters/firmware_path
+   chmod 0660 /sys/module/bcmdhd/parameters/firmware_path
+   setprop wifi.direct.interface p2p-dev-wlan0
