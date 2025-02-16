@@ -4,13 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-## Bluetooth
-BOARD_HAVE_BLUETOOTH_RTK_TV := true
-include hardware/realtek/rtkbt/rtkbt.mk
-
-PRODUCT_PACKAGES += \
-    BeastBluetoothOverlay
-
 ## GMS
 ifeq ($(WITH_GMS),true)
 GMS_MAKEFILE=gms_minimal.mk
