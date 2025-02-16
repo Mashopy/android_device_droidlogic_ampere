@@ -4,13 +4,13 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/google/beast
+DEVICE_PATH := device/droidlogic/ampere
 
 ## Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := Beast
+TARGET_BOOTLOADER_BOARD_NAME := p281
 
 ## DTB
-TARGET_DTB_NAME := gxl_sei210_2g
+TARGET_DTB_NAME := gxl_p281_1g
 
 ## GPU
 TARGET_AMLOGIC_GPU_ARCH := utgard
@@ -38,4 +38,4 @@ PRODUCT_CFI_INCLUDE_PATHS += hardware/realtek/wlan/wpa_supplicant_8_lib
 include device/amlogic/gx-common/BoardConfigCommon.mk
 
 ## Include the proprietary BoardConfig makefile
-include vendor/google/beast/BoardConfigVendor.mk
+include vendor/droidlogic/ampere/BoardConfigVendor.mk

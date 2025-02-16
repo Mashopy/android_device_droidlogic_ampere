@@ -17,17 +17,17 @@ $(call inherit-product, vendor/lineage/config/common_full_tv.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_BRAND := google
-PRODUCT_DEVICE := beast
+PRODUCT_BRAND := Droidlogic
+PRODUCT_DEVICE := ampere
 PRODUCT_GMS_CLIENTID_BASE := android-google-tv
-PRODUCT_MANUFACTURER := Google
-PRODUCT_MODEL := ADT-2
-PRODUCT_NAME := lineage_beast
+PRODUCT_MANUFACTURER := Droidlogic
+PRODUCT_MODEL := X96mini_RP
+PRODUCT_NAME := lineage_ampere
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="adt2-user 9 PTT5.190307.001 5360859 dev-keys" \
-    BuildFingerprint=google/adt2/adt2:9/PTT5.190307.001/5360859:user/dev-keys \
-    DeviceName=adt2 \
-    DeviceProduct=adt2 \
-    SystemDevice=adt2 \
-    SystemName=adt2
+    BuildDesc="ampere-userdebug 9 PPR1.180610.011 20210930 test-keys" \
+    BuildFingerprint=Droidlogic/ampere/ampere:9/PPR1.180610.011/20211013:userdebug/test-keys \
+    DeviceName=ampere \
+    DeviceProduct=ampere \
+    SystemDevice=ampere \
+    SystemName=ampere

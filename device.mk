@@ -19,7 +19,7 @@ endif
 ## Init-Files
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init-files/init.amlogic.wifi_buildin.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.wifi_buildin.rc \
-    $(LOCAL_PATH)/init-files/init.recovery.beast.rc:recovery/root/init.recovery.beast.rc
+    $(LOCAL_PATH)/init-files/init.recovery.p281.rc:recovery/root/init.recovery.p281.rc
 
 ## Keylayout (IR)
 PRODUCT_COPY_FILES += \
@@ -38,4 +38,4 @@ TARGET_AMLOGIC_SOC := gxl
 $(call inherit-product, device/amlogic/gx-common/gx.mk)
 
 ## Inherit from the proprietary files makefile
-$(call inherit-product, vendor/google/beast/beast-vendor.mk)
+$(call inherit-product, vendor/droidlogic/ampere/ampere-vendor.mk)

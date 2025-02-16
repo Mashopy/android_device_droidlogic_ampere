@@ -14,10 +14,10 @@ fi
 
 set -e
 
-export DEVICE=beast
+export DEVICE=ampere
 export DEVICE_COMMON=gx-common
 export TARGET_SOC=gxl
-export VENDOR=google
+export VENDOR=droidlogic
 export VENDOR_DEVICE="${VENDOR}"
 export VENDOR_COMMON=amlogic
 

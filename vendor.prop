@@ -5,7 +5,7 @@
 #
 
 ## Bluetooth
-bluetooth.device.default_name=ADT-2
+bluetooth.device.default_name=X96mini_RP
 bluetooth.profile.a2dp.sink.enabled=false
 bluetooth.profile.avrcp.controller.enabled=false
 bluetooth.profile.hfp.ag.enabled=false
@@ -26,11 +26,8 @@ debug.hwui.use_buffer_age=false
 debug.renderengine.backend=gles
 ro.opengles.version=131072
 
-## Platform
-ro.product.firmware=00502001
-
 ## SOC
-ro.soc.model=AMLS905X
+ro.soc.model=AMLS905W
 
 ## USB
 vendor.usb.controller=c9100000.dwc2_a

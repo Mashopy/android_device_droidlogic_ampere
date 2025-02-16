@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_beast.mk
+    $(LOCAL_DIR)/lineage_ampere.mk
