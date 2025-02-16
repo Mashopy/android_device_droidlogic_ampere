@@ -30,6 +30,9 @@ TARGET_KERNEL_EXT_MODULES := \
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
+## TEE
+TARGET_HAS_TEE := false
+
 ## Wi-Fi
 BOARD_WLAN_DEVICE := amlogic
 MULTI_WIFI_SUPPORT := true
