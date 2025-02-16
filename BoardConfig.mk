@@ -6,6 +6,9 @@
 
 DEVICE_PATH := device/droidlogic/ampere
 
+## Bluetooth
+BOARD_HAVE_BLUETOOTH := false
+
 ## Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := p281
 
