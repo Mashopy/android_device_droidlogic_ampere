@@ -10,7 +10,7 @@ DEVICE_PATH := device/droidlogic/ampere
 TARGET_BOOTLOADER_BOARD_NAME := p281
 
 ## DTB
-TARGET_DTB_NAME := gxl_p281_1g
+TARGET_DTB_NAME := gxl_p281_1g gxl_p281_2g
 
 ## GPU
 TARGET_AMLOGIC_GPU_ARCH := utgard
