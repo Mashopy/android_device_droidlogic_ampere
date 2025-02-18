@@ -6,9 +6,6 @@
 
 DEVICE_PATH := device/droidlogic/ampere
 
-## Bluetooth
-BOARD_HAVE_BLUETOOTH := false
-
 ## Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := p281
 
@@ -29,9 +26,6 @@ TARGET_KERNEL_EXT_MODULES := \
 
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
-
-## TEE
-TARGET_HAS_TEE := false
 
 ## Wi-Fi
 BOARD_WLAN_DEVICE := amlogic

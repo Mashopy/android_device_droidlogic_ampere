@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+## Bluetooth
+BOARD_HAVE_BLUETOOTH := false
+
 ## GMS
 ifeq ($(WITH_GMS),true)
 GMS_MAKEFILE=gms_minimal.mk
@@ -26,6 +29,9 @@ PRODUCT_COPY_FILES += \
 
 ## Platform
 TARGET_AMLOGIC_SOC := gxl
+
+## TEE
+TARGET_HAS_TEE := false
 
 ## Inherit from the common tree product makefile
 $(call inherit-product, device/amlogic/gx-common/gx.mk)
