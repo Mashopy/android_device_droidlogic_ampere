@@ -16,7 +16,9 @@ TARGET_DTB_NAME := gxl_p281_1g gxl_p281_2g
 TARGET_AMLOGIC_GPU_ARCH := utgard
 
 ## Kernel
+BOARD_KERNEL_CMDLINE += androidboot.serialno=1234567890
 BOARD_KERNEL_CMDLINE += androidboot.boot_devices=d0074000.emmc
+BOARD_KERNEL_CMDLINE += androidboot.init_fatal_reboot_target=recovery
 
 ## Kernel modules
 TARGET_KERNEL_EXT_MODULES := \

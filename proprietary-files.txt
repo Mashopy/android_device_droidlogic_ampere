@@ -1,5 +1,5 @@
 ## All blobs from this list, unless pinned and noted as otherwise,
-## are from ampere-userdebug 9 PPR1.180610.011 20210930 test-keys.
+## are from ampere-userdebug 9 PPR1.180610.011 20240520 test-keys.
 
 ## Wi-Fi
 vendor/etc/wifi/ssv6051/ssv6051-sw.bin
